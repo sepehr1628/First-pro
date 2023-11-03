@@ -1,0 +1,74 @@
+:root {
+  --color-white: #ffffff;
+  --color--gray-dark: #3a4246;
+  --color-blue-darker: #4a86e1;
+  --color-gray-light: #c6d2d2;
+  --color-blue-lighter: #93b8eb;
+  --color-blue: #1f69dc;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+header {
+  overflow: hidden;
+  background-color: rgba(198, 210, 210, 0.43);
+  width: 100vw;
+  padding: 3rem;
+  position: relative;
+}
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+.list_item {
+  margin: 4rem;
+  font-size: 1.6rem;
+  font-weight: 50rem;
+}
+.navbar_sections {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+.signin_btn {
+  width: 12.2rem;
+  height: 3.9rem;
+  border-radius: 1.8rem;
+  background-color: var(--color-blue-darker);
+  color: white;
+  font-size: 1.6rem;
+  border: none;
+}
+nav p {
+  font-size: 1.6rem;
+  margin: 3rem;
+}
+/* header below navbar */
+/* .background_halo {
+  width: 81.3rem;
+  height: 81.3rem;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+} */
