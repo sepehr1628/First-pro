@@ -23,6 +23,7 @@ header {
   overflow: hidden;
   background-color: rgba(198, 210, 210, 0.43);
   width: 100vw;
+  height: 90vh;
   padding: 3rem;
   position: relative;
 }
@@ -39,13 +40,14 @@ nav ul {
   list-style: none;
 }
 .list_item {
-  margin: 4rem;
+  margin: 2rem;
   font-size: 1.6rem;
   font-weight: 50rem;
 }
 .navbar_sections {
   display: flex;
   align-items: center;
+  z-index: 10;
 }
 .logo {
   width: 10rem;
@@ -65,10 +67,56 @@ nav p {
   margin: 3rem;
 }
 /* header below navbar */
-/* .background_halo {
+.background_halo {
   width: 81.3rem;
   height: 81.3rem;
   position: absolute;
-  top: 5rem;
+  top: 0;
+  right: -10rem;
+}
+.header_section1 {
+  width: 90%;
+  margin: auto;
+}
+.header_section1 h1 {
+  font-size: 6.5rem;
+  margin: 10rem 0 1rem;
+}
+h1 span {
+  color: var(--color-blue);
+}
+.header_para {
+  font-size: 1.6rem;
+}
+.header__input {
+  border: none;
+  height: 5rem;
+  margin: 2rem 1rem 0 0;
+}
+.header__input::placeholder {
+  color: gray;
+  padding: 1.5rem;
+}
+.header__input--1 {
+  border-radius: 4rem 0 0 4rem;
+  width: 22rem;
+}
+.header__input--2 {
+  width: 22rem;
+}
+.search_btn {
+  background-color: var(--color-blue);
+  color: #fff;
+  width: 13.3rem;
+  border-radius: 0 4rem 4rem 0;
+  position: relative;
+  top: 0.4rem;
+}
+.header_person{
+  width: 70rem;
+  height: 50rem;
+  position: absolute;
+  top: 12.7rem;
   right: 0;
-} */
+  z-index: 10;
+}
