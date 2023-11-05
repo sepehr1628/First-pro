@@ -78,4 +78,31 @@ slides.forEach((slide) =>
 );
 ////////////////////////////////////////////////////////
 //slider
-slides.forEach((s, i) => s.style.transform = `translateX(${i*100})%`)
+slides.forEach((sl, i) => (sl.style.transform = `translateX(${i * 110}%)`));
+const btnRight = document.querySelector(".arrow--right");
+const btnLeft = document.querySelector(".arrow--left");
+let curSlide = 0;
+const maxSlide = slides.length;
+btnRight.addEventListener("click", function () {
+  //   curSlide--;
+  console.log(curSlide);
+  slides.forEach(
+    (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
+  );
+  if (curSlide === 0) {
+    curSlide = maxSlide - 4;
+  } else {
+    curSlide--;
+  }
+});
+btnLeft.addEventListener("click", function () {
+  slides.forEach(
+    (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
+  );
+  if (curSlide === maxSlide - 4) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
+  console.log(curSlide);
+});

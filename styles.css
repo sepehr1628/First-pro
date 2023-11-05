@@ -374,10 +374,11 @@ h1 span {
 }
 .slide {
   border: 1px solid #777a7b;
-  width: 29rem;
+  width: 28rem;
   height: 40rem;
   position: absolute;
   top: 10rem;
+  left: 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -452,10 +453,10 @@ h1 span {
 .arrow--right {
   position: absolute;
   top: 70%;
-  left: 43%;
+  right: 53%;
 }
 .arrow--left {
   position: absolute;
   top: 70%;
-  right: 43%;
+  left: 53%;
 }
