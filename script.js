@@ -1,6 +1,8 @@
 "use strict";
 
-// Trending services/ filling the box
+
+
+
 const services = document.querySelectorAll(".service");
 services.forEach((box, i) =>
   box.insertAdjacentHTML(
@@ -86,23 +88,33 @@ const maxSlide = slides.length;
 btnRight.addEventListener("click", function () {
   //   curSlide--;
   console.log(curSlide);
-  slides.forEach(
-    (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
-  );
   if (curSlide === 0) {
     curSlide = maxSlide - 4;
   } else {
     curSlide--;
   }
-});
-btnLeft.addEventListener("click", function () {
   slides.forEach(
     (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
   );
+});
+btnLeft.addEventListener("click", function () {
   if (curSlide === maxSlide - 4) {
     curSlide = 0;
   } else {
     curSlide++;
   }
+  slides.forEach(
+    (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
+  );
   console.log(curSlide);
 });
+
+// categories.forEach(box => box.addEventListener('mouseover', function(e){
+//     e.target
+// }))
+
+
+
+
+
+
