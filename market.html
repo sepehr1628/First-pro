@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepehr</title>
+    <link rel="stylesheet" href="market-styles.css">
+    <link rel="stylesheet" href="fontawesome-free/css/fontawesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar_sections">
+                <img src="img/Frame 5.png" alt="Company Logo" class="logo">
+                <ul>
+                    <li class="list_item">Home</li>
+                    <li class="list_item"><b>Market</b></li>
+                    <li class="list_item">Freelancer</li>
+                    <li class="list_item">Blog</li>
+                    <li class="list_item">Educations</li>
+                    <li class="list_item">Projects</li>
+                    <li class="list_item">Resume</li>
+                    <li class="list_item">Contact Us</li>
+                </ul>
+            </div>
+            <div class="navbar_sections">
+                <p class="nav_para">
+                    <img src="img/Icon.png" alt="Shopping cart">
+                    cart
+                </p>
+                <button class="signin_btn">
+                    Sign In
+                </button>
+            </div>
+        </nav>
+        <img class="header_banner" src="img/image 29.png" alt="header photo">
+        <p class="page-navigation">
+            <a href="index.html">Home</a> > Market
+        </p>
+    </header>
+
+    <main>
+
+        <!-- //// Filter -->
+        <div class="products_filter">
+            <h2>Filter</h2>
+
+            <!-- Brand -->
+            <div class="products_filter--brand">
+                <h2>
+                    Brand
+                </h2>
+
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Apple
+                </label>
+
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Asus
+                </label>
+
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Acer
+                </label>
+
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Dell
+                </label>
+
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Lenovo
+                </label>
+            </div>
+
+            <!-- Processor -->
+            <div class="products_filter--processor">
+                <h2>
+                    Processor
+                </h2>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Core i7-12700H
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Core i7-12700H
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Core i7-12700H
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Core i7-12700H
+                </label>
+            </div>
+
+            <!-- Type -->
+            <div class="products_filter--type">
+                <h2>
+                    Type
+                </h2>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Hybrid
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Laptop
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Desktop
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Touch
+                </label>
+                <label class="filter_boxes--checkbox">
+                    <input type="checkbox">
+                    Tablet
+                </label>
+            </div>
+
+            <!-- Price Range -->
+            <div class="products_filter--price-range">
+                <h2>
+                    Price Range
+                </h2>
+                <!-- Range -->
+                <input type="range" name="Price range" class="price_range">
+
+                <!-- From input -->
+                <div class="arange-range">
+                    <h3>
+                        From
+                    </h3>
+                    <div class="input_range">
+                        <span class="input_range--dollar">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </span>
+                        <input type="text" placeholder="100" class="input_range--from inp-range">
+                    </div>
+                </div>
+
+                <!-- To input -->
+                <div class="arange-range">
+                    <h3>
+                        To
+                    </h3>
+                    <div class="input_range">
+                        <span class="input_range--dollar">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                        </span>
+                        <input type="text" placeholder="500" class="input_range--to inp-range">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="products_filter--btns">
+                <button class="filter_btn filter_btn-delete">Delete</button>
+                <button class="filter_btn filter_btn-filter">Filter</button>
+            </div>
+        </div>
+
+        <!-- //// Products -->
+        <div class="products_grid">
+            <div class="products_grid--head">
+                <p>
+                    1- 16 over 2,000 result for <span class="asus-color">“Asus”</span>
+                </p>
+            </div>
+            <div class="products_grid--main">
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+                <div class="product_grid--item"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

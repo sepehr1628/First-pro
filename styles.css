@@ -53,7 +53,9 @@ button:hover {
   font-weight: 50rem;
   cursor: pointer;
 }
-.list_item & .nav_para {
+.nav_para {
+  font-size: 1.6rem;
+  margin: 3rem;
 }
 .navbar_sections {
   display: flex;
@@ -73,10 +75,7 @@ button:hover {
   font-size: 1.6rem;
   border: none;
 }
-nav p {
-  font-size: 1.6rem;
-  margin: 3rem;
-}
+
 /* header below navbar */
 .background_halo {
   width: 81.3rem;
