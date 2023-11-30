@@ -78,7 +78,7 @@ slides.forEach((slide) =>
 `
   )
 );
-////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
 //slider
 slides.forEach((sl, i) => (sl.style.transform = `translateX(${i * 110}%)`));
 const btnRight = document.querySelector(".arrow--right");

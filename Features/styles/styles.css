@@ -217,6 +217,7 @@ h1 span {
 }
 .section2__categories {
   display: flex;
+  justify-content: center;
   gap: 4rem;
   padding-top: 7rem;
 }
@@ -492,6 +493,7 @@ h1 span {
   color: #777a7b;
 }
 .arrow {
+  cursor: pointer;
   width: 4.8rem;
   height: 4.8rem;
   border: 1px solid #000;

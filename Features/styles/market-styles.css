@@ -30,12 +30,10 @@ body {
   width: 100%;
 }
 
-/* header */
 header {
   position: relative;
 }
 
-/* navbar */
 nav {
   display: flex;
   align-items: center;
@@ -49,10 +47,36 @@ nav ul {
   list-style: none;
 }
 
+main {
+  /* width: 85%;
+  margin: auto; */
+  display: flex;
+  gap: 1rem;
+  padding: 15rem 15rem 0 15rem ;
+}
+
 button {
   cursor: pointer;
 }
+/* Header */
+.header_banner {
+  width: 100%;
+}
 
+.page-navigation {
+  position: absolute;
+  top: 25rem;
+  left: 10rem;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.page-navigation a {
+  color: rgba(0, 0, 0, 0.58);
+  text-decoration: none;
+}
+/* Nav bar */
 .list_item {
   margin: 2rem;
   font-size: 1.6rem;
@@ -63,6 +87,9 @@ button {
 .nav_para {
   font-size: 1.6rem;
   margin: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .navbar_sections {
@@ -86,40 +113,12 @@ button {
   border: none;
 }
 
-/* rest of header */
-.header_banner {
-  width: 100%;
-}
-
-.page-navigation {
-  position: absolute;
-  top: 25rem;
-  left: 10rem;
-  font-size: 1.6rem;
-  display: flex;
-  gap: 2rem;
-}
-
-.page-navigation a {
-  color: rgba(0, 0, 0, 0.58);
-  text-decoration: none;
-}
 
 /* Main */
-main {
-  width: 85%;
-  margin: auto;
-  display: flex;
-  gap: 1rem;
-}
-
-/* Products */
-.products_grid {
-  display: grid;
-}
 
 /* Filter */
 .products_filter {
+  width: 25%;
   border: 1px solid #000;
   border-radius: 0.5rem;
   display: flex;
@@ -149,6 +148,10 @@ main {
 .input_range {
   display: flex;
 }
+
+/* .input_range--to, .input_range--from {
+  border-left: 20px solid var(--color--gray-dark);
+} */
 
 .input_range--dollar {
   display: flex;
@@ -199,4 +202,50 @@ main {
   width: 7rem;
   background-color: var(--color-white);
   color: var(--color--gray-dark);
+}
+
+/* Products */
+.products_grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.products_grid--head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products_grid--para {
+  font-size: 1.8rem;
+}
+
+.asus-color {
+  color: rgba(255, 193, 7, 1);
+}
+
+.product_grid--sort {
+  height: 4rem;
+  width: 20rem;
+  color: rgba(120, 117, 117, 0.58);
+  padding: 1rem;
+  border: 1px solid rgba(120, 117, 117, 0.58);
+  border-radius: 0.5rem;
+}
+
+.products_grid--main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr;
+  gap: 2rem;
+  margin: 2rem 0 0 2rem;
+}
+
+.product_grid--item {
+  width: 28.5rem;
+  height: 30.8rem;
+  border: 1px solid rgba(120, 117, 117, 0.58);
+  border-radius: 0.5rem;
 }
