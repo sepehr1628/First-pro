@@ -48,8 +48,6 @@ nav ul {
 }
 
 main {
-  /* width: 85%;
-  margin: auto; */
   display: flex;
   gap: 1rem;
   padding: 15rem 15rem 0 15rem ;
@@ -81,7 +79,11 @@ button {
   margin: 2rem;
   font-size: 1.6rem;
   font-weight: 50rem;
-  cursor: pointer;
+}
+
+.list_item a{
+  text-decoration: none;
+  color: #000;
 }
 
 .nav_para {
@@ -101,6 +103,11 @@ button {
 .logo {
   width: 10rem;
   height: 10rem;
+}
+
+.cart-sign {
+  color: var(--color-blue);
+  font-size: 1.7rem;
 }
 
 .signin_btn {
@@ -174,7 +181,7 @@ button {
 /* //////////BUG */
 .inp-range:focus,
 .inp-range:active {
-  border: none;
+outline: none;
 }
 
 .arange-range {
@@ -245,7 +252,80 @@ button {
 
 .product_grid--item {
   width: 28.5rem;
-  height: 30.8rem;
+  height: 35rem;
   border: 1px solid rgba(120, 117, 117, 0.58);
   border-radius: 0.5rem;
+  position: relative;
+}
+
+.product_grid--item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+.product_grid--item-pic {
+  height: 17.5rem;
+  width: 100%;
+}
+
+.product_grid--item > i{
+  position: absolute;
+  top: 25%;
+  right: 50%;
+  font-size: 1.5rem;
+}
+
+.product_grid--item-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 90%;
+}
+
+.product_grid--item-price b{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.product_grid--item-price strike{
+  color: #3a4246;
+}
+
+.rate {
+  display: flex;
+  background-color: #FAEAB9;
+  width: 6rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  border-radius: 2rem;
+}
+
+.rate i {
+  color: rgb(255, 217, 0);
+  gap: 1.5rem;
+}
+
+.product_grid--item-price-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: var(--color-blue-darker);
+  color: var(--color-white);
+}
+
+.product_grid--item-price-btn i{
+  color: var(--color-white);
+  font-size: 1.5rem;
 }

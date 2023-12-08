@@ -1,9 +1,10 @@
 "use strict";
-
-
-
-
+const btnRight = document.querySelector(".arrow--right");
+const btnLeft = document.querySelector(".arrow--left");
 const services = document.querySelectorAll(".service");
+const maxSlide = slides.length;
+let curSlide = 0;
+
 services.forEach((box, i) =>
   box.insertAdjacentHTML(
     "afterbegin",
@@ -81,10 +82,8 @@ slides.forEach((slide) =>
 ///////////////////////////////////////////////////////
 //slider
 slides.forEach((sl, i) => (sl.style.transform = `translateX(${i * 110}%)`));
-const btnRight = document.querySelector(".arrow--right");
-const btnLeft = document.querySelector(".arrow--left");
-let curSlide = 0;
-const maxSlide = slides.length;
+
+// Right arrow button
 btnRight.addEventListener("click", function () {
   //   curSlide--;
   console.log(curSlide);
@@ -97,6 +96,8 @@ btnRight.addEventListener("click", function () {
     (sl, i) => (sl.style.transform = `translateX(${(i - curSlide) * 110}%)`)
   );
 });
+
+// Left arrow button
 btnLeft.addEventListener("click", function () {
   if (curSlide === maxSlide - 4) {
     curSlide = 0;
@@ -108,13 +109,3 @@ btnLeft.addEventListener("click", function () {
   );
   console.log(curSlide);
 });
-
-// categories.forEach(box => box.addEventListener('mouseover', function(e){
-//     e.target
-// }))
-
-
-
-
-
-

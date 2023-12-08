@@ -4,30 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sepehr</title>
-    <link rel="stylesheet" href="market-styles.css">
-    <link rel="stylesheet" href="fontawesome-free/css/fontawesome.min.css">
+    <title>Marshalls</title>
+    <link rel="stylesheet" href="Features/styles/market-styles.css">
+    <link rel="stylesheet" href="Features/fontawesome-free/css/all.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Features/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Features/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Features/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
     <header>
         <nav>
             <div class="navbar_sections">
-                <img src="img/Frame 5.png" alt="Company Logo" class="logo">
+                <img src="Features/img/Frame 5.png" alt="Company Logo" class="logo">
+
+                <!-- Navigation items -->
                 <ul>
-                    <li class="list_item">Home</li>
-                    <li class="list_item"><b>Market</b></li>
-                    <li class="list_item">Freelancer</li>
-                    <li class="list_item">Blog</li>
-                    <li class="list_item">Educations</li>
-                    <li class="list_item">Projects</li>
-                    <li class="list_item">Resume</li>
-                    <li class="list_item">Contact Us</li>
+                    <li class="list_item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="market.html">Market</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Freelancer</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Educations</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Projects</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Resume</a>
+                    </li>
+                    <li class="list_item">
+                        <a href="">Contact Us</a>
+                    </li>
                 </ul>
             </div>
             <div class="navbar_sections">
                 <p class="nav_para">
-                    <img src="img/Icon.png" alt="Shopping cart">
+                    <i class="fa fa-basket-shopping-simple cart-sign"></i>
                     cart
                 </p>
                 <button class="signin_btn">
@@ -35,7 +59,7 @@
                 </button>
             </div>
         </nav>
-        <img class="header_banner" src="img/image 29.png" alt="header photo">
+        <img class="header_banner" src="Features/img/image 29.png" alt="header photo">
         <p class="page-navigation">
             <a href="index.html">Home</a> > Market
         </p>
@@ -43,7 +67,7 @@
 
     <main>
 
-        <!-- //// Filter -->
+        <!-- Filter -->
         <div class="products_filter">
             <h2>Filter</h2>
 
@@ -59,7 +83,7 @@
                 </label>
 
                 <label class="filter_boxes--checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" checked>
                     Asus
                 </label>
 
@@ -85,7 +109,7 @@
                     Processor
                 </h2>
                 <label class="filter_boxes--checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" checked>
                     Core i7-12700H
                 </label>
                 <label class="filter_boxes--checkbox">
@@ -112,7 +136,7 @@
                     Hybrid
                 </label>
                 <label class="filter_boxes--checkbox">
-                    <input type="checkbox">
+                    <input type="checkbox" checked>
                     Laptop
                 </label>
                 <label class="filter_boxes--checkbox">
@@ -175,7 +199,7 @@
             </div>
         </div>
 
-        <!-- //// Products -->
+        <!-- Products -->
         <div class="products_grid">
             <div class="products_grid--head">
                 <!-- Title -->
@@ -189,35 +213,208 @@
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
                     <option value="audi">Audi</option>
-                  </select>
+                </select>
             </div>
             <div class="products_grid--main">
                 <div class="product_grid--item">
-                    <img src="img/image 27.png" alt="Product picture">
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-                    
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            zenbook pro 14 due oled <br>
+                            (ux8402,11th gen intel)
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="product_grid--item">
-
+                    <img src="Features/img/image 27.png" alt="Product picture" class="product_grid--item-pic">
+                    <i class="fa-regular fa-image"></i>
+                    <div class="product_grid--item-details">
+                        <div class="product_grid--item-price">
+                            <p>
+                                <b>$30.50</b> <strike>$45.65</strike>
+                            </p>
+                            <span class="rate">
+                                <i class="fa-solid fa-star"></i> 4.5
+                            </span>
+                        </div>
+                        <h2>
+                            <a href="">
+                                zenbook pro 14 due oled <br>
+                                (ux8402,11th gen intel)
+                            </a>
+                        </h2>
+                        <button class="product_grid--item-price-btn">
+                            Add To Cart
+                            <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

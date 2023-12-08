@@ -19,14 +19,7 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
-.section--1 {
-  overflow: hidden;
-  background-color: rgba(198, 210, 210, 0.43);
-  width: 100vw;
-  height: 90vh;
-  padding: 3rem;
-  position: relative;
-}
+
 /* navbar */
 nav {
   display: flex;
@@ -42,21 +35,30 @@ nav ul {
 button {
   cursor: pointer;
 }
-button:hover {
-  background-color: var(--color-white);
-  color: var(--color-blue);
-  border: 1px solid var(--color-blue);
-}
+
 .list_item {
   margin: 2rem;
   font-size: 1.6rem;
   font-weight: 50rem;
-  cursor: pointer;
 }
+
+.list_item a{
+  text-decoration: none;
+  color: #000;
+}
+
 .nav_para {
   font-size: 1.6rem;
   margin: 3rem;
+  display: flex;
+  gap: 1.5rem;
 }
+
+.cart-sign {
+  color: var(--color-blue);
+  font-size: 1.7rem;
+}
+
 .navbar_sections {
   display: flex;
   align-items: center;
@@ -74,9 +76,30 @@ button:hover {
   color: var(--color-white);
   font-size: 1.6rem;
   border: none;
+  display: inline-block;
 }
 
-/* header below navbar */
+.signin_btn a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+}
+
+/* Main */
+.section--1 {
+  overflow: hidden;
+  background-color: rgba(198, 210, 210, 0.43);
+  width: 100vw;
+  height: 90vh;
+  padding: 3rem;
+  position: relative;
+}
+
 .background_halo {
   width: 81.3rem;
   height: 81.3rem;
@@ -84,6 +107,7 @@ button:hover {
   top: 0;
   right: -10rem;
 }
+
 .header_medias {
   width: 4.8rem;
   height: 4.8rem;
@@ -93,16 +117,19 @@ button:hover {
   top: 30rem;
   left: 65rem;
 }
+
 .instagram {
   position: absolute;
   top: 44rem;
   left: 80rem;
 }
+
 .twitter {
   position: absolute;
   top: 25rem;
   right: 50rem;
 }
+
 .header_section1 {
   width: 90%;
   margin: auto;
@@ -111,36 +138,45 @@ button:hover {
   flex-wrap: nowrap;
   gap: 1rem;
 }
+
 .header_section1 h1 {
   font-size: 6.5rem;
   margin: 10rem 0 1rem;
 }
+
 h1 span {
   color: var(--color-blue);
 }
+
 .header_para {
   font-size: 1.6rem;
 }
+
 .header_form_container {
   display: flex;
   /* flex-wrap: nowrap; */
 }
+
 .header__input {
   border: none;
   height: 5rem;
   margin: 2rem 1rem 0 0;
-}
-.header__input::placeholder {
-  color: gray;
   padding: 1.5rem;
 }
+
+.header__input::placeholder {
+  color: gray;
+}
+
 .header__input--1 {
   border-radius: 4rem 0 0 4rem;
   width: 22rem;
 }
+
 .header__input--2 {
   width: 22rem;
 }
+
 .search_btn {
   background-color: var(--color-blue);
   color: var(--color-white);
@@ -150,8 +186,15 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  font-size: 1.5rem;
 }
+
+.search-sign {
+  color: var(--color-white);
+  font-size: 1.7rem;
+}
+
 .header_person {
   width: 70rem;
   height: 50rem;
@@ -160,6 +203,7 @@ h1 span {
   right: 0;
   z-index: 10;
 }
+
 
 /* Section 2 */
 .section--2 {
@@ -278,6 +322,7 @@ h1 span {
 }
 .browse {
   cursor: pointer;
+  font-size: 2rem;
 }
 .service {
   box-shadow: 4px 4px rgba(198, 196, 196, 0.55);
@@ -297,7 +342,7 @@ h1 span {
   font-weight: 600;
 }
 .section3__Tservices-title :last-child {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: var(--color-blue);
 }
 .section3_Tservices {
@@ -322,7 +367,6 @@ h1 span {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-
 }
 .service_field {
   font-size: 1.6rem;
@@ -368,7 +412,7 @@ h1 span {
   justify-content: space-between;
   margin: 10rem 0;
 }
-.marketplace{
+.marketplace {
   width: 63rem;
   height: 53rem;
   display: flex;
@@ -383,7 +427,7 @@ h1 span {
   font-size: 1.6rem;
   /* font-weight: 400; */
 }
-.marketplace_header{
+.marketplace_header {
   font-size: 3.6rem;
   font-weight: 600;
 }
@@ -407,7 +451,6 @@ h1 span {
 }
 .section--4 {
   height: 100vh;
-
 }
 .section--4 h2 {
   margin: 0 40%;
@@ -421,16 +464,16 @@ h1 span {
   justify-content: space-between;
   overflow: hidden;
   gap: 8rem;
-  flex-grow: 4;
+  /* flex-grow: 4; */
   position: relative;
 }
 .slide {
   border: 1px solid #777a7b;
   width: 28rem;
   height: 40rem;
-  position: absolute;
+  /* position: absolute;
   top: 10rem;
-  left: 0;
+  left: 0; */
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -466,7 +509,7 @@ h1 span {
   justify-content: center;
   gap: 1rem;
 }
-.freelancer-btn{
+.freelancer-btn {
   background-color: var(--color-blue-lighter);
   font-weight: 550;
   border: none;
@@ -530,7 +573,6 @@ footer {
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-white);
-
 }
 .footer_cols {
   display: flex;
