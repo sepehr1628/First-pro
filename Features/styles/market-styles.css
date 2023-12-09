@@ -51,6 +51,7 @@ main {
   display: flex;
   gap: 1rem;
   padding: 15rem 15rem 0 15rem ;
+  margin-bottom: 10rem;
 }
 
 button {
@@ -98,6 +99,7 @@ button {
   display: flex;
   align-items: center;
   z-index: 10;
+  position: relative;
 }
 
 .logo {
@@ -105,9 +107,19 @@ button {
   height: 10rem;
 }
 
-.cart-sign {
-  color: var(--color-blue);
-  font-size: 1.7rem;
+.product-count {
+  background-color: var(--color--gray-dark);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 2.7rem;
+  right: 20rem;
+  opacity: 0;
 }
 
 .signin_btn {
@@ -120,9 +132,12 @@ button {
   border: none;
 }
 
+.nav-cart-sign {
+  color: var(--color-blue);
+  font-size: 1.7rem;
+}
 
 /* Main */
-
 /* Filter */
 .products_filter {
   width: 25%;
@@ -312,7 +327,7 @@ outline: none;
   gap: 1.5rem;
 }
 
-.product_grid--item-price-btn {
+.product_grid--item-addToCart {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,7 +340,77 @@ outline: none;
   color: var(--color-white);
 }
 
-.product_grid--item-price-btn i{
+.product_grid--item-addClicked {
+  background-color: var(--color-gray-light);
+  color: var(--color--gray-dark);
+}
+
+.cart-sign {
   color: var(--color-white);
   font-size: 1.5rem;
 }
+
+/* Footer */
+footer {
+  background-color: var(--color--gray-dark);
+  margin-right: -4rem;
+  padding: 5rem;
+}
+.footer_margin {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_para {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.footer_cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2rem;
+}
+.footer_headers {
+  color: var(--color-white);
+  font-size: 1.8rem;
+}
+.footer_cols p {
+  color: rgba(255, 255, 255, 0.71);
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+  /* align-items: e; */
+}
+.margin-tp {
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.copy_right {
+  color: rgba(255, 255, 255, 0.71);
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.break_line {
+  margin: 5rem auto 2rem;
+  width: 85%;
+  height: 0.1rem;
+  background-color: var(--color-white);
+}
+.copy_right div {
+  display: flex;
+  gap: 1rem;
+}
+
+.brands-logo {
+  color: var(--color-white);
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+

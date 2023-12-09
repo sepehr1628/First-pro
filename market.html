@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marshalls</title>
+    
     <link rel="stylesheet" href="Features/styles/market-styles.css">
     <link rel="stylesheet" href="Features/fontawesome-free/css/all.min.css">
+    <script src="Features/scripts/market-scripts.js" defer></script>
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="Features/favicon/apple-touch-icon.png">
@@ -51,9 +53,10 @@
             </div>
             <div class="navbar_sections">
                 <p class="nav_para">
-                    <i class="fa fa-basket-shopping-simple cart-sign"></i>
+                    <i class="fa fa-basket-shopping-simple nav-cart-sign"></i>
                     cart
                 </p>
+                <i class="product-count">0</i>
                 <button class="signin_btn">
                     Sign In
                 </button>
@@ -232,7 +235,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -254,7 +257,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -276,7 +279,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -298,7 +301,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -320,7 +323,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -342,7 +345,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -364,7 +367,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -386,7 +389,7 @@
                             zenbook pro 14 due oled <br>
                             (ux8402,11th gen intel)
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -410,7 +413,7 @@
                                 (ux8402,11th gen intel)
                             </a>
                         </h2>
-                        <button class="product_grid--item-price-btn">
+                        <button class="product_grid--item-addToCart" data-click="0">
                             Add To Cart
                             <i class="fa fa-basket-shopping-simple cart-sign"></i>
                         </button>
@@ -419,8 +422,75 @@
             </div>
         </div>
     </main>
-    <footer>
 
+    <!-- Footer -->
+    <footer>
+        <section class="footer_margin">
+            <div class="footer_cols">
+                <img src="Features/img/Frame 5.png" alt="logo" class="logo">
+                <p class="footer_para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et <br> dolore magna aliqua
+                </p>
+                <div>
+                    <a href="https://www.linkedin.com/in/sepehr-mohammadpour/" target="_blank">
+                        <i class="fa-brands fa-linkedin brands-logo"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_sepehrmp" target="_blank">
+                        <i class="fa-brands fa-instagram brands-logo"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-twitter brands-logo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_cols">
+                <h3 class="footer_headers">Sections</h3>
+                <p>Web Design</p>
+                <p>Web Design</p>
+                <p>Web Design</p>
+            </div>
+            <div class="footer_cols">
+                <h3 class="footer_headers">About</h3>
+                <p>Company</p>
+                <p>Team</p>
+                <p>Careers</p>
+            </div>
+            <div class="footer_cols margin-tp">
+                <h3 class="footer_headers">Contact</h3>
+                <span>
+                    <i class="fa fa-map-marker">
+
+                    </i>
+                    Address
+                </span>
+                <span>
+                    <i class="fa fa-phone">
+
+                    </i>
+                    Address
+                </span>
+                <span>
+                    <i>
+
+                    </i>
+                    Address
+                </span>
+
+            </div>
+
+        </section>
+        <div class="break_line"></div>
+        <div class="copy_right">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipis
+            </p>
+            <div>
+                <p class="policy">Privacy Policy</p>
+                <p class="policy">Terms Of Use</p>
+            </div>
+        </div>
     </footer>
 </body>
 

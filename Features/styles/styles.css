@@ -42,7 +42,7 @@ button {
   font-weight: 50rem;
 }
 
-.list_item a{
+.list_item a {
   text-decoration: none;
   color: #000;
 }
@@ -63,11 +63,28 @@ button {
   display: flex;
   align-items: center;
   z-index: 10;
+  position: relative;
 }
 .logo {
   width: 10rem;
   height: 10rem;
 }
+
+.product-count {
+  background-color: var(--color--gray-dark);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 2.7rem;
+  right: 20rem;
+  opacity: 0;
+}
+
 .signin_btn {
   width: 12.2rem;
   height: 3.9rem;
@@ -84,7 +101,7 @@ button {
   text-decoration: none;
 }
 
-button:hover{
+button:hover {
   background-color: var(--color-white);
   color: var(--color-blue);
   border: 1px solid var(--color-blue);
@@ -203,7 +220,6 @@ h1 span {
   right: 0;
   z-index: 10;
 }
-
 
 /* Section 2 */
 .section--2 {
@@ -464,16 +480,16 @@ h1 span {
   justify-content: space-between;
   overflow: hidden;
   gap: 8rem;
-  /* flex-grow: 4; */
   position: relative;
 }
 .slide {
+  /* flex-grow: 4; */
   border: 1px solid #777a7b;
   width: 28rem;
   height: 40rem;
-  /* position: absolute;
+  position: absolute;
   top: 10rem;
-  left: 0; */
+  left: 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -612,4 +628,10 @@ footer {
 .copy_right div {
   display: flex;
   gap: 1rem;
+}
+
+.brands-logo {
+  color: var(--color-white);
+  font-size: 2rem;
+  margin-right: 1rem;
 }
