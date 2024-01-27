@@ -1,46 +1,46 @@
 <!-- by @Saman-alayee -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="assets/css/styles.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-      
-    <div class="back-head">
-            <nav class="navbar navbar-light navbar-expand-lg bg-light" id="nav-nav">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <div class="modall">
+    <div class="login-box">
+      <form action="" method="post">
+
+      </form>
+    </div>
+    <div class="intro-box"></div>
+  </div>
+  <div class="back-head">
+    <nav class="navbar navbar-light navbar-expand-lg bg-light" id="nav-nav">
       <div class="container-fluid">
-        <img
-          class="bg-primary d-inline-block navbar-brand primary align-text-top rounded-5"
-          id="logo-nav"
-          src="Pictures/H Logo 1.png"
-          alt=""
-          width="45"
-          height="45"
-        /><button
-          class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
-        >
+        <img class="bg-primary d-inline-block navbar-brand primary align-text-top rounded-5" id="logo-nav"
+          src="Pictures/H Logo 1.png" alt="" width="45" height="45" /><button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                id="nav-item"
-                aria-current="page"
-                href="./Home.html"
-                >Home</a
-              >
+              <a class="nav-link active" id="nav-item" aria-current="page" href="./Home.html">Home</a>
             </li>
             <li class="nav-item"></li>
             <li class="nav-item">
@@ -60,103 +60,61 @@
               <a class="nav-link" id="nav-item" href="#">Contact Us</a>
             </li>
           </ul>
+
           <!-- Example single danger button -->
-         <div class="dropdown">
-            <a
-              class="btn btn-primary dropdown-toggle dropbtn"
-              id="btn-cart"
-              href="#"
-              role="button"
-              data-toggle="dropdown"
-              aria-expanded="false"
-            >
+          <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle dropbtn" id="btn-cart" href="#" role="button"
+              data-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-shopping-cart position-relative" id="icn-cart">
-                <span class="badge-cart">5</span> </i
-              >cart
+                <span class="badge-cart">5</span> </i>cart
             </a>
 
-             <div class="dropdown">
+            <div class="dropdown">
               <div class="dropdown-content">
                 <div class="d-flex p-4">
-                  <img
-                    src="./Pictures//teahub.io-horizon-zero-dawn-wallpaper-631872.jpg"
-                    width="70px"
-                    height="70px"
-                    alt=""
-                  />
+                  <img src="./Pictures//teahub.io-horizon-zero-dawn-wallpaper-631872.jpg" width="70px" height="70px"
+                    alt="" />
                   <div class="mt-2 px-4 w-100">
                     <h6>Apple watch</h6>
                     <p class="text-muted">$25.00</p>
                   </div>
                   <div class="d-flex justify-content-around">
-                    <input
-                      class="w-100 h-50 form-control mt-2 px-4"
-                      type="number"
-                      name="count"
-                      id="count"
-                    />
-                    
+                    <input class="w-100 h-50 form-control mt-2 px-4" type="number" name="count" id="count" />
+
                   </div>
                   <div class="mt-2 px-4"><button class="btn btn-light">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-trash"
-                        viewBox="0 0 16 16"
-                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash" viewBox="0 0 16 16">
                         <path
-                          d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"
-                        />
-                        <path
-                          fill-rule="evenodd"
-                          d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
-                        />
+                          d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                        <path fill-rule="evenodd"
+                          d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                       </svg>
                     </button></div>
-                  
+
                 </div>
                 <hr>
                 <div class="d-flex p-4">
-                  <img
-                    src="./Pictures//teahub.io-horizon-zero-dawn-wallpaper-631872.jpg"
-                    width="70px"
-                    height="70px"
-                    alt=""
-                  />
+                  <img src="./Pictures//teahub.io-horizon-zero-dawn-wallpaper-631872.jpg" width="70px" height="70px"
+                    alt="" />
                   <div class="mt-2 px-4 w-100">
                     <h6>Apple watch</h6>
                     <p class="text-muted">$25.00</p>
                   </div>
                   <div class="d-flex justify-content-around">
-                    <input
-                      class="w-100 h-50 form-control mt-2 px-4"
-                      type="number"
-                      name="count"
-                      id="count"
-                    />
-                    
+                    <input class="w-100 h-50 form-control mt-2 px-4" type="number" name="count" id="count" />
+
                   </div>
                   <div class="mt-2 px-4"><button class="btn btn-light">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-trash"
-                        viewBox="0 0 16 16"
-                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash" viewBox="0 0 16 16">
                         <path
-                          d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"
-                        />
-                        <path
-                          fill-rule="evenodd"
-                          d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"
-                        />
+                          d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z" />
+                        <path fill-rule="evenodd"
+                          d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z" />
                       </svg>
                     </button></div>
-                  
+
                 </div>
                 <hr>
                 <div class="d-flex justify-content-center">
@@ -166,8 +124,8 @@
                 <hr>
                 <div class="d-flex justify-content-center mb-3 p-3">
                   <button class="btn btn-primary w-100" type="button">
-                See Cart
-              </button>
+                    See Cart
+                  </button>
                 </div>
               </div>
             </div>
@@ -178,363 +136,390 @@
         </div>
       </div>
     </nav>
-          <div class="container ">
-              <div class="row align-items-center">
-                  <div class="col-lg-6 ps-5 ">
-      
-                      <h1 class="heading1">Find Every Job</h1>
-                      <h1 class="heading1"> In One <span class="blue">Platform</span></h1>
-                          <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                  <div class="d-flex pt-3">
-                      <input type="text" name="" id="" class="form-control m-1" style="width: 180px;border-radius: 20px 0 0 20px;display: inline-block;" placeholder="Job Title">
-                      <input type="text" name="" id="" class="form-control m-1" style="width: 180px; display: inline-block;border-radius:0;" placeholder="Location">
-                      <button class="btn m-1" style="background-color: #1F69DC; color: #fff; border-radius: 0 20px 20px 0;width: 180px;"><img src="Pictures/Icon (2).png" search="" alt="">Search</button>
-                  </div>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                      <img src="Pictures/image 14.png" class="img-fluid " alt="">
-                  </div>
-              </div>
+    <div class="container ">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ps-5 ">
+
+          <h1 class="heading1">Find Every Job</h1>
+          <h1 class="heading1"> In One <span class="blue">Platform</span></h1>
+          <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt
+            ut labore et dolore magna aliqua</p>
+          <div class="d-flex pt-3">
+            <input type="text" name="" id="" class="form-control m-1"
+              style="width: 180px;border-radius: 20px 0 0 20px;display: inline-block;" placeholder="Job Title">
+            <input type="text" name="" id="" class="form-control m-1"
+              style="width: 180px; display: inline-block;border-radius:0;" placeholder="Location">
+            <button class="btn m-1"
+              style="background-color: #1F69DC; color: #fff; border-radius: 0 20px 20px 0;width: 180px;"><img
+                src="Pictures/Icon (2).png" search="" alt="">Search</button>
           </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <img src="Pictures/image 14.png" class="img-fluid " alt="">
+        </div>
       </div>
-    <div class="container-fluid">
-       
-      <div class="container mt-5">
-          <div class="row align-items-center ">
-              <div class="col-lg-6">
-                  <img src="Pictures/image 14 (1).png" alt="">
-              </div>
-              <div class="col-lg-6">
-                  <div class="row g-5">
-                      <h3 class="heading2">put your CV in front of the great <br>for employers to see</h3>
-                      <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam qui.</h6>
-                  </div>
-                  <div class="row pt-5 ps-2">
-                      <button class="btn" style="background-color: #1F69DC; color: #fff; width: 180px; border-radius: 20px;" > Create Your CV -></button>
-                  </div>
-              </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+
+    <div class="container mt-5">
+      <div class="row align-items-center ">
+        <div class="col-lg-6">
+          <img src="Pictures/image 14 (1).png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-5">
+            <h3 class="heading2">put your CV in front of the great <br>for employers to see</h3>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus
+              aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi
+              tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus
+              et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare
+              massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed
+              enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non
+              nisi est sit amet facilisis magna. Dignissim diam qui.</h6>
           </div>
+          <div class="row pt-5 ps-2">
+            <button class="btn" style="background-color: #1F69DC; color: #fff; width: 180px; border-radius: 20px;">
+              Create Your CV -></button>
+          </div>
+        </div>
       </div>
-      <div class="container">
+    </div>
+    <div class="container">
       <div class="row">
-      <h3 class="text-start mt-5">Browser By Job Categories <a href="#" class="d-flex justify-content-end">Browser All Job -></a></h3>
+        <h3 class="text-start mt-5">Browser By Job Categories <a href="#" class="d-flex justify-content-end">Browser All
+            Job -></a></h3>
       </div>
       <div class="row mt-3">
-      <div class="col-lg-3 gy-3">
-      <div class="card align-items-center"  >
-          <img class="card-img-top image1 p-2" src="Pictures/web-design (1).png" alt="Card image cap">
-          <div class="card-body ">
-            <h5 class="card-title ps-2 text-dark">Ui/ux Design</h5>
-            <p class="card-text">75+ available vacancy</p>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top image1 p-2" src="Pictures/web-design (1).png" alt="Card image cap">
+            <div class="card-body ">
+              <h5 class="card-title ps-2 text-dark">Ui/ux Design</h5>
+              <p class="card-text">75+ available vacancy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top image1 p-2" src="Pictures/web-development.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title ps-2 text-dark">Web Develope</h5>
+              <p class="card-text">75+ available vacancy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center  text-white" style="background-color:#4A86E1;">
+            <img class="card-img-top image1 p-2" src="Pictures/online-advertising.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title ps-2 ">Digital Marketing</h5>
+              <p class="card-text">75+ available vacancy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top image1 p-2" src="Pictures/microphone.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title ps-2 text-dark">Music & Audio</h5>
+              <p class="card-text">75+ available vacancy</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 gy-3">
-      <div class="card align-items-center"  >
-          <img class="card-img-top image1 p-2" src="Pictures/web-development.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title ps-2 text-dark">Web Develope</h5>
-            <p class="card-text">75+ available vacancy</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 gy-3">
-      <div class="card align-items-center  text-white" style="background-color:#4A86E1;" >
-          <img class="card-img-top image1 p-2"  src="Pictures/online-advertising.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title ps-2 ">Digital Marketing</h5>
-            <p class="card-text">75+ available vacancy</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 gy-3">
-      <div class="card align-items-center" >
-          <img class="card-img-top image1 p-2" src="Pictures/microphone.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title ps-2 text-dark">Music & Audio</h5>
-            <p class="card-text">75+ available vacancy</p>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-      
-      <div class=" mt-5" >
+    </div>
+
+    <div class=" mt-5">
       <div class="row heading3 align-items-center">
-      <div class="col-lg-3  ">
-         <p class="text-white ps-5 heading4"><br> Peaple Productivity <br> Performance
+        <div class="col-lg-3  ">
+          <p class="text-white ps-5 heading4"><br> Peaple Productivity <br> Performance
           </p>
-      </div>
-      <div class="offset-lg-1 col-lg-8">
-        <div class="row ps-5">
-      <div class="heading5 col-lg-4">
-        <p>Jobs</p>  
-      </div>
-      <div class="heading5 col-lg-4">
-      <p>Startup</p>
-      </div>
-      <div class="heading5 col-lg-4">
-      <p>Talent</p>
-      </div>
-      </div>
-      <div class="row ps-4">
-          <div class="heading4 col-lg-4">
+        </div>
+        <div class="offset-lg-1 col-lg-8">
+          <div class="row ps-5">
+            <div class="heading5 col-lg-4">
+              <p>Jobs</p>
+            </div>
+            <div class="heading5 col-lg-4">
+              <p>Startup</p>
+            </div>
+            <div class="heading5 col-lg-4">
+              <p>Talent</p>
+            </div>
+          </div>
+          <div class="row ps-4">
+            <div class="heading4 col-lg-4">
               <p>+235k</p>
             </div>
             <div class="heading4 col-lg-4">
-                <p>+60k</p>
+              <p>+60k</p>
             </div>
             <div class="heading4 col-lg-4">
-                <p>+678</p>
+              <p>+678</p>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="container mt-5">
+    </div>
+    <div class="container mt-5">
       <div class="row">
-          <h3 class="text-start">Trending Services <a href="#" class="d-flex justify-content-end">All service -></a></h3>
-          </div>
-       <div class="row">
-          <div class="col-lg-3 gy-3">
-              <div class="card">
-                  <img class="card-img-top" src="Pictures/image 27.png" alt="Card image cap">
-                  <div class="card-body">
-                    <h6>Developement & IT</h6>
-                    <h5 class="card-title">Web development, with HTML,
-                      CSS, JavaScript and PHP</h5>
-                      <div><img src="Pictures/image 21.png" class="p1 " alt="">
-                        <p class="p1">4.5 (2 reviews)</p></div>
-                  </div>
-                  <ul class="list-group list-group-flush">
-             <div>
-              <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="" >
-              <p class="p1">martin dias</p>
-              <p class="p1 p2">$29</p>
+        <h3 class="text-start">Trending Services <a href="#" class="d-flex justify-content-end">All service -></a></h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 gy-3">
+          <div class="card">
+            <img class="card-img-top" src="Pictures/image 27.png" alt="Card image cap">
+            <div class="card-body">
+              <h6>Developement & IT</h6>
+              <h5 class="card-title">Web development, with HTML,
+                CSS, JavaScript and PHP</h5>
+              <div><img src="Pictures/image 21.png" class="p1 " alt="">
+                <p class="p1">4.5 (2 reviews)</p>
+              </div>
             </div>
-                  </ul>
-      
+            <ul class="list-group list-group-flush">
+              <div>
+                <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="">
+                <p class="p1">martin dias</p>
+                <p class="p1 p2">$29</p>
+              </div>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card">
+            <img class="card-img-top" src="Pictures/image 27 (1).png" alt="Card image cap">
+            <div class="card-body">
+              <h6>Developement & IT</h6>
+              <h5 class="card-title">Web development, with HTML,
+                CSS, JavaScript and PHP</h5>
+              <div><img src="Pictures/image 21.png" class="p1 " alt="">
+                <p class="p1">4.5 (2 reviews)</p>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div>
+                <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="">
+                <p class="p1">martin dias</p>
+                <p class="p1 p2">$29</p>
+              </div>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card">
+            <img class="card-img-top" src="Pictures/image 27 (2).png" alt="Card image cap">
+            <div class="card-body">
+              <h6>Developement & IT</h6>
+              <h5 class="card-title">Web development, with HTML,
+                CSS, JavaScript and PHP</h5>
+              <div><img src="Pictures/image 21.png" class="p1 " alt="">
+                <p class="p1">4.5 (2 reviews)</p>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div>
+                <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="">
+                <p class="p1">martin dias</p>
+                <p class="p1 p2">$29</p>
+              </div>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card">
+            <img class="card-img-top" src="Pictures/image 27 (3).png" alt="Card image cap">
+            <div class="card-body">
+              <h6>Developement & IT</h6>
+              <h5 class="card-title">Web development, with HTML,
+                CSS, JavaScript and PHP</h5>
+              <div><img src="Pictures/image 21.png" class="p1 " alt="">
+                <p class="p1">4.5 (2 reviews)</p>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div>
+                <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="">
+                <p class="p1">martin dias</p>
+                <p class="p1 p2">$29</p>
+              </div>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row align-items-center ">
+        <div class="col-lg-6">
+          <img src="Pictures/image 26.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-5">
+            <h3>Join World's Best Marketplace <br> for Workers
+              <h6 class="heading7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit
+                officia consequat duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.</h6>
+              <ul>
+                <li class="li1">Last Education of Bachelor Degree</li>
+                <li class="li1">More Than 15 Years Experience</li>
+                <li class="li1">12 Education Award Winning</li>
+              </ul>
+          </div>
+          <div class="row pt-5 ps-2">
+            <button class="btn" style="background-color: #1F69DC; color: #fff; width: 180px; border-radius: 20px;"> See
+              Products -></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
+              <p class="card-text" style="opacity: 49%;">Web Designer</p>
+            </div>
+            <div><img src="Pictures/image 21.png" class="p1 " alt="">
+              <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p>
+            </div>
+
+            <div class="card-body">
+              <button class="btn btn1 me-2">Creative</button>
+              <button class="btn btn1">Figma</button>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="rate">Locatinon:</div>
+                  <div>London</div>
                 </div>
-          </div>
-          <div class="col-lg-3 gy-3">
-            <div class="card">
-              <img class="card-img-top" src="Pictures/image 27 (1).png" alt="Card image cap">
-              <div class="card-body">
-                <h6>Developement & IT</h6>
-                <h5 class="card-title">Web development, with HTML,
-                  CSS, JavaScript and PHP</h5>
-                  <div><img src="Pictures/image 21.png" class="p1 " alt="">
-                    <p class="p1">4.5 (2 reviews)</p></div>
+                <div class="col-lg-6">
+                  <div class="rate">Rate:</div>
+                  <div>$25 - $35 / hr</div>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-         <div>
-          <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="" >
-          <p class="p1">martin dias</p>
-          <p class="p1 p2">$29</p>
-        </div>
-              </ul>
-      
-            </div>
+              <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button>
           </div>
-          <div class="col-lg-3 gy-3">
-            <div class="card">
-              <img class="card-img-top" src="Pictures/image 27 (2).png" alt="Card image cap">
-              <div class="card-body">
-                <h6>Developement & IT</h6>
-                <h5 class="card-title">Web development, with HTML,
-                  CSS, JavaScript and PHP</h5>
-                  <div><img src="Pictures/image 21.png" class="p1 " alt="">
-                    <p class="p1">4.5 (2 reviews)</p></div>
+          </ul>
+          <div>
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
+              <p class="card-text" style="opacity: 49%;">Web Designer</p>
+            </div>
+            <div><img src="Pictures/image 21.png" class="p1 " alt="">
+              <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p>
+            </div>
+
+            <div class="card-body">
+              <button class="btn btn1 me-2">Creative</button>
+              <button class="btn btn1">Figma</button>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="rate">Locatinon:</div>
+                  <div>London</div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="rate">Rate:</div>
+                  <div>$25 - $35 / hr</div>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-         <div>
-          <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="" >
-          <p class="p1">martin dias</p>
-          <p class="p1 p2">$29</p>
-        </div>
-              </ul>
-      
-            </div>
+              <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button>
           </div>
-          <div class="col-lg-3 gy-3">
-            <div class="card">
-              <img class="card-img-top" src="Pictures/image 27 (3).png" alt="Card image cap">
-              <div class="card-body">
-                <h6>Developement & IT</h6>
-                <h5 class="card-title">Web development, with HTML,
-                  CSS, JavaScript and PHP</h5>
-                  <div><img src="Pictures/image 21.png" class="p1 " alt="">
-                  <p class="p1">4.5 (2 reviews)</p></div>
+          </ul>
+          <div>
+          </div>
+        </div>
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
+              <p class="card-text" style="opacity: 49%;">Web Designer</p>
+            </div>
+            <div><img src="Pictures/image 21.png" class="p1 " alt="">
+              <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p>
+            </div>
+
+            <div class="card-body">
+              <button class="btn btn1 me-2">Creative</button>
+              <button class="btn btn1">Figma</button>
+            </div>
+            <ul class="list-group list-group-flush">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="rate">Locatinon:</div>
+                  <div>London</div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="rate">Rate:</div>
+                  <div>$25 - $35 / hr</div>
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-         <div>
-          <img src="Pictures/Ellipse 6.png" class="rounded-circle img11" alt="" >
-          <p class="p1">martin dias</p>
-          <p class="p1 p2">$29</p>
+              <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button>
+          </div>
+          </ul>
+          <div>
+          </div>
         </div>
-              </ul>
-      
+        <div class="col-lg-3 gy-3">
+          <div class="card align-items-center">
+            <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
+              <p class="card-text" style="opacity: 49%;">Web Designer</p>
             </div>
-          </div>
-       </div>
-      </div>
-      <div class="container mt-5">
-        <div class="row align-items-center ">
-        <div class="col-lg-6">
-            <img src="Pictures/image 26.png" alt="">
-        </div>
-        <div class="col-lg-6">
-            <div class="row g-5">
-                <h3 >Join World's Best Marketplace <br> for Workers
-                <h6 class="heading7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.</h6>
-                <ul>
-                  <li class="li1">Last Education of Bachelor Degree</li>
-                  <li class="li1">More Than 15 Years Experience</li>
-                  <li class="li1">12 Education Award Winning</li>
-                </ul>
+            <div><img src="Pictures/image 21.png" class="p1 " alt="">
+              <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p>
             </div>
-            <div class="row pt-5 ps-2">
-                <button class="btn" style="background-color: #1F69DC; color: #fff; width: 180px; border-radius: 20px;" > See Products -></button>
+
+            <div class="card-body">
+              <button class="btn btn1 me-2">Creative</button>
+              <button class="btn btn1">Figma</button>
             </div>
-        </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-      <div class="col-lg-3 gy-3">
-        <div class="card align-items-center">
-          <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
-            <p class="card-text" style="opacity: 49%;">Web Designer</p>
+            <ul class="list-group list-group-flush">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="rate">Locatinon:</div>
+                  <div>London</div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="rate">Rate:</div>
+                  <div>$25 - $35 / hr</div>
+                </div>
+              </div>
+              <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button>
           </div>
-          <div><img src="Pictures/image 21.png" class="p1 " alt="">
-            <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p></div>
-      
-          <div class="card-body">
-            <button class="btn btn1 me-2">Creative</button>
-            <button class="btn btn1">Figma</button>
+          </ul>
+          <div>
           </div>
-          <ul class="list-group list-group-flush">
-            <div class="row">
-          <div class="col-lg-6">
-            <div class="rate">Locatinon:</div>
-            <div>London</div>
-          </div>
-          <div class="col-lg-6">
-            <div class="rate">Rate:</div>
-            <div>$25 - $35 / hr</div>
-          </div>
-           </div>
-           <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button></div>
-                 </ul>
-                 <div>
         </div>
       </div>
-      <div class="col-lg-3 gy-3">
-        <div class="card align-items-center">
-          <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
-            <p class="card-text" style="opacity: 49%;">Web Designer</p>
-          </div>
-          <div><img src="Pictures/image 21.png" class="p1 " alt="">
-            <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p></div>
-      
-          <div class="card-body">
-            <button class="btn btn1 me-2">Creative</button>
-            <button class="btn btn1">Figma</button>
-          </div>
-          <ul class="list-group list-group-flush">
-            <div class="row">
-          <div class="col-lg-6">
-            <div class="rate">Locatinon:</div>
-            <div>London</div>
-          </div>
-          <div class="col-lg-6">
-            <div class="rate">Rate:</div>
-            <div>$25 - $35 / hr</div>
-          </div>
-           </div>
-           <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button></div>
-                 </ul>
-                 <div>
-        </div>
-      </div>
-      <div class="col-lg-3 gy-3">
-        <div class="card align-items-center">
-          <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
-            <p class="card-text" style="opacity: 49%;">Web Designer</p>
-          </div>
-          <div><img src="Pictures/image 21.png" class="p1 " alt="">
-            <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p></div>
-      
-          <div class="card-body">
-            <button class="btn btn1 me-2">Creative</button>
-            <button class="btn btn1">Figma</button>
-          </div>
-          <ul class="list-group list-group-flush">
-            <div class="row">
-          <div class="col-lg-6">
-            <div class="rate">Locatinon:</div>
-            <div>London</div>
-          </div>
-          <div class="col-lg-6">
-            <div class="rate">Rate:</div>
-            <div>$25 - $35 / hr</div>
-          </div>
-           </div>
-           <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button></div>
-                 </ul>
-                 <div>
-        </div>
-      </div>
-      <div class="col-lg-3 gy-3">
-        <div class="card align-items-center">
-          <img class="card-img-top rounded-circle card1 align-items-center pt-1" src="Pictures/Ellipse 6 (1).png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title text-center" style="font-weight: 600;">Martin Dias</h5>
-            <p class="card-text" style="opacity: 49%;">Web Designer</p>
-          </div>
-          <div><img src="Pictures/image 21.png" class="p1 " alt="">
-            <p class="p1">4.5 (<span style="opacity: 49%;">2 reviews</span>)</p></div>
-      
-          <div class="card-body">
-            <button class="btn btn1 me-2">Creative</button>
-            <button class="btn btn1">Figma</button>
-          </div>
-          <ul class="list-group list-group-flush">
-            <div class="row">
-          <div class="col-lg-6">
-            <div class="rate">Locatinon:</div>
-            <div>London</div>
-          </div>
-          <div class="col-lg-6">
-            <div class="rate">Rate:</div>
-            <div>$25 - $35 / hr</div>
-          </div>
-           </div>
-           <button class="btn btn-outline-primary mt-3 mb-3 btn2">View Profile -></button>
-          </div>
-                 </ul>
-                 <div>
-        </div>
-      </div>
-        </div>
-      </div>
-      
-      <!-- footer -->
-     <footer
-      class="text-center text-lg-start py-5 footer-style text-white row row-cols-1 row-cols-sm-2 row-cols-md-5 mt-4 border-top"
-    >
+    </div>
+
+    <!-- footer -->
+    <footer
+      class="text-center text-lg-start py-5 footer-style text-white row row-cols-1 row-cols-sm-2 row-cols-md-5 mt-4 border-top">
       <div class="col-md-3 mb-3" style="padding-left: 2rem">
-        <img
-          class="bg-primary d-flex image-position justify-content-center primary align-text-top rounded-5"
-          src="Pictures/H Logo 1.png"
-          alt=""
-        /><i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <img class="bg-primary d-flex image-position justify-content-center primary align-text-top rounded-5"
+          src="Pictures/H Logo 1.png" alt="" /><i class="fa fa-facebook-square" aria-hidden="true"></i>
 
         <p class="text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -542,41 +527,20 @@
           magni quo quidem.
         </p>
         <div class="icon-conatiner">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="35"
-            height="25"
-            fill="currentColor"
-            class="bi bi-facebook"
-            viewBox="0 0 16 16"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
             <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-            />
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="35"
-            height="25"
-            fill="currentColor"
-            class="bi bi-telegram"
-            viewBox="0 0 16 16"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-telegram"
+            viewBox="0 0 16 16">
             <path
-              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
-            />
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="35"
-            height="25"
-            fill="currentColor"
-            class="bi bi-instagram"
-            viewBox="0 0 16 16"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
             <path
-              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-            />
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
           </svg>
         </div>
       </div>
@@ -646,22 +610,17 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="jquery/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
-</html> 
+
+</html>
